@@ -11,7 +11,7 @@ func main() {
 
 	r := gin.Default()
 
-	//r.Use(hooks.CORSMiddleware())
+	r.Use(hooks.CORSMiddleware())
 
 	//读取JSON文件
 	JSON, err := tools.ReadJSON("./config.json")
