@@ -1,5 +1,5 @@
 {
 
-  "proxyIP": "http://60.204.170.225:8800",
+  "proxyIP": "http://localhost:11434",
 "localListenIP": "9999"
 }
